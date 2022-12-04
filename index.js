@@ -24,7 +24,7 @@ mongoose
 app.use(express.json());
 // User signup and login details
 app.use("/api/auth", authRoute);
-// Movies
+
 app.listen(port, () => {
   console.log(`Backend server is running! on port ${port}`);
 });
